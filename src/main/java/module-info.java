@@ -4,4 +4,6 @@ module fr.epsi {
 
     opens fr.epsi to javafx.fxml;
     exports fr.epsi;
+    exports fr.epsi.controller;
+    opens fr.epsi.controller to javafx.fxml;
 }

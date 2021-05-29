@@ -1,6 +1,8 @@
-package fr.epsi;
+package fr.epsi.controller;
 
 import java.io.IOException;
+
+import fr.epsi.App;
 import javafx.fxml.FXML;
 
 public class PrimaryController {
