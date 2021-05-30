@@ -1,14 +1,14 @@
-package fr.epsi.controller;
+package fr.epsi.controllers;
 
 import fr.epsi.App;
 import javafx.fxml.FXML;
 
 import java.io.IOException;
 
-public class LoginController {
+public class ReadCaptureController {
 
     @FXML
-    private void connect() throws IOException {
+    private void back() throws IOException {
         App.setRoot("menu");
     }
 

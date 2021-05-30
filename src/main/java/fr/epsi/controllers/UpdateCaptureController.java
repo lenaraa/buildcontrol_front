@@ -1,11 +1,11 @@
-package fr.epsi.controller;
+package fr.epsi.controllers;
 
 import fr.epsi.App;
 import javafx.fxml.FXML;
 
 import java.io.IOException;
 
-public class ReadCaptureController {
+public class UpdateCaptureController {
 
     @FXML
     private void back() throws IOException {

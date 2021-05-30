@@ -1,4 +1,4 @@
-package fr.epsi.controller;
+package fr.epsi.controllers;
 
 import fr.epsi.App;
 import javafx.fxml.FXML;
