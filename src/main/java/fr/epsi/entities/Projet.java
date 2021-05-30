@@ -75,6 +75,7 @@ public class Projet {
                 ", " + nom +
                 " du dateDebut " + dateDebut +
                 " au dateFin " + dateFin +
+                " à " + lieu +
                 '}';
     }
 

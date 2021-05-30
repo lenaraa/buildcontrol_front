@@ -13,6 +13,8 @@ public class Chantier {
 
     private LocalDate dateFin;
 
+    private String lieu;
+
     private List<SousTraitant> lesCorpsMetiers;
 
 
@@ -48,6 +50,14 @@ public class Chantier {
         this.dateFin = dateFin;
     }
 
+    public String getLieu() {
+        return lieu;
+    }
+
+    public void setLieu(String lieu) {
+        this.lieu = lieu;
+    }
+
     public List<SousTraitant> getLesCorpsMetiers() {
         return lesCorpsMetiers;
     }
@@ -64,6 +74,7 @@ public class Chantier {
                 ", " + nom +
                 " du dateDebut " + dateDebut +
                 " au dateFin " + dateFin +
+                " à " + lieu +
                 '}';
     }
 
