@@ -167,8 +167,8 @@ public class Capture {
 
     public String toStringAbridged() {
         return "Capture n°" + id +
-                " : \n" + incident +
-                "\n du " + dateCapture;
+                " : \"" + incident +
+                "\" du " + dateCapture;
     }
 
 }
