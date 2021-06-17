@@ -38,7 +38,7 @@ public class CapturesController implements Initializable {
             }
         });
 
-        //affiche la liste
+        //affiche la liste test
         listView.setItems(list);
 
         this.lesCaptures = FetchData.getCaptures();
