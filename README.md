@@ -7,13 +7,12 @@ This app was made for a project during our Bachelor degree in EPSI Lille.
 This was made by :
 - Mara (Lenaraa) ;
 - Erwan (ErwanPro) ;
-- Antoine () ;
+- Antoine (AntoineT800) ;
 - Yahse (Josiyahse)
 
 ## Project setup
-You first need to download the buildcontrol_back project.
-Then, you need to import the database (in the ressource folder) and launch it.
-Finally, start the app.
+You can find the API for this project at http://bit.ly/MSPR_API
+The app uses Java 16.0.1
 
 ## Run Project
 You just need the run the app.
