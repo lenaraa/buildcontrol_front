@@ -8,11 +8,11 @@
 <?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.epsi.controllers.LoginController">
     <children>
-        <Label text="Veuillez vous connecter" />
+        <Label text="Veuillez-vous connecter" fx:id="connect" />
     </children>
     <children>
         <Label text="Nom d'utilisateur :" />
-        <TextField fx:id="usernmae"/>
+        <TextField fx:id="username"/>
     </children>
     <children>
         <Label text="Mot de passe :" />
@@ -20,6 +20,9 @@
     </children>
     <children>
         <Button fx:id="connectButton" text="Se connecter" onAction="#connect"/>
+    </children>
+    <children>
+        <Label fx:id="error" />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
