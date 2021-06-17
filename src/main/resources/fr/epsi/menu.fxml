@@ -12,18 +12,6 @@
     <children>
         <Button fx:id="readAllButton" text="Afficher toutes les captures" onAction="#captures"/>
     </children>
-    <children>
-        <Button fx:id="addButton" text="Ajouter une capture" onAction="#create"/>
-    </children>
-    <children>
-        <Button fx:id="readButton" text="Détail d'une capture" onAction="#read"/>
-    </children>
-    <children>
-        <Button fx:id="updateButton" text="Modifier une capture" onAction="#update"/>
-    </children>
-    <children>
-        <Button fx:id="deleteButton" text="Supprimer une capture" onAction="#delete"/>
-    </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
