@@ -1,0 +1,35 @@
+package fr.epsi.entities;
+
+public class Drone {
+
+    private Long id;
+
+    private String libelle;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getLibelle() {
+        return libelle;
+    }
+
+    public void setLibelle(String libelle) {
+        this.libelle = libelle;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Drone{" +
+                "n°" + id +
+                ", " + libelle +
+                '}';
+    }
+
+}
