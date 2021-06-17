@@ -12,24 +12,4 @@ public class MenuController {
         App.setRoot("captures");
     }
 
-    @FXML
-    private void create() throws IOException {
-        App.setRoot("createCapture");
-    }
-
-    @FXML
-    private void read() throws IOException {
-        App.setRoot("readCapture");
-    }
-
-    @FXML
-    private void update() throws IOException {
-        App.setRoot("updateCapture");
-    }
-
-    @FXML
-    private void delete() throws IOException {
-        App.setRoot("deleteCapture");
-    }
-
 }
